@@ -1,0 +1,16 @@
+// mixins
+@mixin borda-arredondada {
+    border-radius: $raio;
+}
+
+@mixin caixa-alta {
+    text-transform: $letra-maiuscula;
+}
+
+@mixin distancia-letras {
+    letter-spacing: $espaco-letras;
+}
+
+@mixin distancia-linhas($espaco-linhas) {
+    line-height: $espaco-linhas;
+}

@@ -1,0 +1,16 @@
+// bases
+@import 'bases/normalize';
+@import 'bases/reset';
+@import 'bases/grid';
+@import 'bases/responsivo';
+// dependencias
+@import 'dependencies/variaveis';
+@import 'dependencies/mixins';
+// estilos
+@import 'layout/geral';
+@import 'layout/menu';
+@import 'layout/header';
+@import 'layout/sobre';
+@import 'layout/cursos';
+@import 'layout/contato';
+@import 'layout/footer';

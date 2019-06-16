@@ -1,0 +1,38 @@
+/* CURSOS */
+
+.sobre h2,
+.cursos h2 {
+    color: #000;
+}
+
+.cursos,
+.sobre,
+.contato {
+    padding: 60px 0;
+}
+
+.cursos-lista {
+    background-color: #555;
+    margin-top: 65px;
+    li {
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: rgba(214, 214, 214, 0.616);
+        border-radius: 10px;
+        padding: 20px;
+        &:hover {
+            background-color: rgba(173, 173, 173, 0.432);
+        }
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        margin-top: 12px;
+        margin-bottom: 14px;
+        margin-left: 105px;
+    }
+    h3 {
+        @include distancia-letras;
+        font-weight: bold;
+    }
+}

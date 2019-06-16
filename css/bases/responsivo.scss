@@ -1,0 +1,66 @@
+// Estilo para tablets 
+@media only screen and (min-width: 768px) and (max-width: 968px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header img {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-menu ul {
+        text-align: center;
+        margin-top: -50px;
+        margin-left: 300px;
+    }
+    .sobre,
+    .cursos {
+        width: 400px;
+        margin-left: 200px;
+    }
+    .apresentacao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cursos-lista {
+        margin-left: 50px;
+    }
+    .contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #contato>#contact_form {
+        margin-left: 10px;
+    }
+}
+
+// Estilo para smartphones  
+@media only screen and (max-width: 767px) {
+    .header {
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header img {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-menu ul {
+        text-align: center;
+        margin-top: -50px;
+    }
+    .cursos-lista img {
+        margin-left: 105px;
+    }
+}

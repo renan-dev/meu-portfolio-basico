@@ -1,0 +1,47 @@
+/* GERAL */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-top: -18px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    border: 3px solid $cor-branca;
+    color: $cor-branca;
+    padding: 10px 20px;
+    font-size: 14px;
+    @include distancia-linhas(20px);
+    @include caixa-alta;
+    @include borda-arredondada;
+    @include distancia-letras;
+    &:hover {
+        color: $cor-laranja;
+        border-color: $cor-laranja;
+    }
+}
+
+.subtitulo {
+    font-size: 24px;
+    @include distancia-linhas(30px); //aqui 30px
+    font-weight: bold;
+    @include distancia-letras;
+    color: $cor-branca;
+    @include caixa-alta;
+    text-align: center;
+    &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: $cor-laranja;
+        margin: 8px auto;
+    }
+}

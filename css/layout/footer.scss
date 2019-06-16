@@ -1,0 +1,12 @@
+// FOOTER
+footer {
+    width: 100%;
+    background-color: $cor-preto-opaco;
+    text-align: center;
+    padding: 5px;
+    border-top: 1px solid $cor-laranja;
+    span {
+        font-size: 15px;
+        color: $cor-branca;
+    }
+}

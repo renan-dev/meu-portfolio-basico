@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Renan Rocha</title>
+    <link rel="shortcut icon" href="/img/logo2-portfolio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gugi">;
+    <link rel="stylesheet" type="text/css" href="css/bases/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bases/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/bases/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/logo3-portfolio.png" alt="Logotipo Renan">
+            </a>
+            <nav class="grid-12 header-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cursos">Skills</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao">
+        <div class="container">
+            <h1>Renan Rocha</h1>
+            <h4 class="func">Desenvolvedor Front-End Jr</h4>
+            <a href="#contato" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre container">
+        <h2 class="subtitulo">Sobre</h2>
+        <div class="apresentacao grid-7">
+            <h3>Olá, sou <strong>Renan</strong>.</h3>
+            <p>Graduado em Gestão da Tecnologia da Informação. Estudando constantemente tecnologias de desenvolvimento web. Autodidata, focado sempre em obter novos conhecimentos. Sempre em busca de desafios que possam me proporcionar maturidade profissional
+                e competência.<br>
+                <br> Atualmente trabalho em uma consultoria de Testes de Software, no cargo de Tester Funcional.
+                <br><br>Buscando oportunidade para atuar como <strong>Desenvolvedor Front-End Junior</strong>.
+                <p>
+        </div>
+        <div class="apresentacao img grid-7">
+            <img src="img/photo-about.jpg" alt="Foto Renan">
+        </div>
+    </section>
+
+    <section id="cursos" class="cursos container">
+        <h2 class="subtitulo">Conhecimentos</h2>
+        <ul class="cursos-lista">
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/6a3f04f8-8eec-4b74-a5b9-fcb3aca3a490" target="_blank"><img src="img/html-icon.png" title="Clique para abrir certificado" alt="html5"></a>
+                <h3>HTML5</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/6b19ac4e-f5dd-46ad-8625-a54740af3927" target="_blank"><img src="img/css-icon.png" title="Clique para abrir certificado" alt="css3"></a>
+                <h3>CSS3</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/9b678489-7d88-40ee-9a34-1cde6c857f8d" target="_blank"><img src="img/javascript-icon.png" title="Clique para abrir certificado" alt="javascript"></a>
+                <h3>JAVASCRIPT</h3>
+            </li>
+
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/45747bfe-f76b-437c-926b-ef5a94f453af" target="_blank"><img src="img/bootstrap-icon.png" title="Clique para abrir certificado" alt="bootstrap"></a>
+                <h3>BOOTSTRAP</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/44892906-7788-4c64-8554-fe1d6d3da40d" target="_blank"><img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" title="Clique para abrir certificado" alt="sass"></a>
+                <h3>SASS</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/ff77c614-dcd4-42c7-bf51-14ddc309b864" target="_blank"><img src="img/jquery-icon.png" title="Clique para abrir certificado" alt="jquery"></a>
+                <h3>JQUERY</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="#" target="_blank"><img src="img/github-icon.png" title="Clique para abrir certificado" alt="github"></a>
+                <h3>GITHUB</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="#" target="_blank"><img src="img/php-icon.png" title="Clique para abrir certificado" alt="php"></a>
+                <h3>PHP</h3>
+            </li>
+            <li class="grid-1-3">
+                <a href="https://cursos.alura.com.br/certificate/caa975b4-1caa-4e26-8cfd-91160ca02ffb" target="_blank"><img src="img/java-icon.png" title="Clique para abrir certificado" alt="java"></a>
+                <h3>JAVA</h3>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="contato" class="contato container">
+        <h2 class="subtitulo">Contatos</h2>
+
+        <form id="contact_form" class="grid-1-3" method="POST">
+            <h3>Fale comigo!</h3>
+
+            <input id="name" class="input" name="name" type="text" placeholder="Nome" size="30" required><br/>
+
+            <input id="email" class="input" name="email" type="text" placeholder="E-mail" size="30" required><br/>
+
+            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Digite algo..." required></textarea><br/>
+
+            <button id="submit_button" class="btn-send" type="submit" title="Enviar">Enviar</button>
+        </form>
+
+        <div id="contact_form" class="grid-1-3">
+            <h3>Contatos</h3>
+            <ul class="meios-contatos">
+                <li class="wpp"><i class="fa fa-whatsapp"></i>&nbsp;11 98367-4102</li>
+
+                <li class="tel"><i class="fa fa-phone"></i>&nbsp;11 4554-6391</li>
+
+                <li class="mail"><i class="fa fa-at"></i>&nbsp;renanprch@gmail.com</li>
+            </ul>
+        </div>
+
+        <div id="contact_form" class="grid-1-3 red-soc">
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/renan-rocha-572540128/" target="_blank"><img src="img/linkedin-icon.png" alt="LinkedIn Renan" title="LinkedIn"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/renan-dev" target="_blank"><img src="img/github-icon.png" alt="Github Renan" title="Github"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/renanweb/" target="_blank"><img src="img/instagram-icon.png" alt="Instagram Renan" title="Instagram"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <span>&copy; 2019 - Renan Rocha</span>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/identfiedMenu.js"></script>
+
+</body>
+
+</html>

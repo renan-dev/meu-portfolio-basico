@@ -1,0 +1,107 @@
+/* CONTATO */
+
+.contato {
+    margin: 0 auto;
+    width: 100%;
+    background-color: $cor-preto-opaco;
+    h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        @include distancia-letras;
+        &::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: $cor-laranja;
+            margin: 14px auto 10px auto;
+        }
+    }
+}
+
+
+/* contato form */
+
+#contact_form {
+    margin-top: 20px;
+    margin-left: 110px;
+    text-align: center;
+    color: $cor-branca;
+    input {
+        margin-left: 0px;
+    }
+    textarea {
+        margin: 10px auto;
+    }
+    button {
+        margin: 0px;
+    }
+}
+
+.input {
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    background-color: $cor-preto-opaco;
+    border-radius: 10px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.btn-send {
+    border: 3px solid $cor-branca;
+    color: $cor-laranja;
+    border-radius: 10px;
+    background-color: $cor-preto-opaco;
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: $cor-branca;
+    &:hover {
+        color: $cor-laranja;
+        border-color: $cor-laranja;
+    }
+}
+
+
+/* redes sociais contato*/
+
+.red-soc {
+    height: 370px;
+    img {
+        width: 50px;
+        margin-bottom: 30px;
+        margin-left: 125px;
+    }
+}
+
+
+/* meios de contatos */
+
+.meios-contatos {
+    text-align: left;
+    margin-left: 50px;
+    height: 240px;
+    li {
+        font-size: 14px;
+        @include distancia-letras;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .tel,
+    .wpp,
+    .mail {
+        display: flex;
+        align-items: center;
+    }
+    i {
+        color: $cor-branca;
+        &:hover {
+            color: $cor-laranja;
+        }
+    }
+}

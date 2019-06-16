@@ -1,0 +1,22 @@
+/* SOBRE */
+
+.apresentacao {
+    margin-top: 60px;
+    width: 450px;
+    @include distancia-linhas(26px); //aqui 26px
+    h3 {
+        font-size: 22px;
+    }
+    p {
+        margin-left: 20px;
+        font-size: 18px;
+        margin-top: 20px;
+        @include distancia-linhas(20px);
+        @include distancia-letras;
+    }
+    img {
+        width: 400px;
+        float: right;
+        border-radius: 10px;
+    }
+}
